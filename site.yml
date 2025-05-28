@@ -12,7 +12,7 @@ urls: # Creates a redirect for the newest version to the link "latest"
 # tag::content[]
 content:
   sources:
-    - url: https://github.com/asam-ev/OpenMATERIAL.git  # <1>
+    - url: https://github.com/HeyImJordi/OpenMATERIAL-3D.git  # <1>
       branches: [main, v*.*.*]
       tags: [v*,V*]
       start_path: .antora
